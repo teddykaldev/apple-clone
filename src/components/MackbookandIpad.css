@@ -1,0 +1,14 @@
+.MackbookandIpad-container{
+        display:flex;
+        flex-direction: column;
+    }
+@media (min-width:768px){
+    .MackbookandIpad-container{
+        flex-direction: row;
+        gap:10px;
+    }
+    .MackbookandIpad-container>*{
+        width: 50%;
+    }
+
+}

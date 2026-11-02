@@ -1,0 +1,34 @@
+.appletv-container {
+  background-image: url("../assets/images/home/apple-tv-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.atv-img-container {
+  margin-top: 10px;
+  padding-top: 20px;
+}
+.servant-img img{
+    /* background-color: brown; */
+    width: 100%;
+    max-width: 280px;
+   margin-top: 70px;
+}
+.atv-note-container p {
+  margin: 0;
+  font-size: 11px;
+  font-weight: 500;
+}
+.atv-note-container {
+  margin-top: 125px;
+}
+.a-link-container a {
+  text-decoration: none;
+  font-size: 8px;
+}

@@ -1,0 +1,35 @@
+.ipad-container {
+  background-image: url("../assets/images/home/new-ipad.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.ipad-note-container{
+  text-align: center;
+  padding-top: 20px;
+}
+.ipad-note-container span {
+  font-weight: bold;
+}
+.ipad-link-container {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.ipad-link-container a {
+  text-decoration: none;
+}
+.ipad-pargraph {
+  font-size: medium;
+  font-weight: 500;
+}
+@media (min-width:768px){
+    .ipad-container{
+        height: 490px;
+    }
+}

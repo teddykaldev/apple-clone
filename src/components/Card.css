@@ -1,0 +1,35 @@
+.card-container {
+  background-image: url("../assets/images/home/apple-card.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.c-note-container {
+  text-align: center;
+  margin-top: 10px;
+}
+.c-note-container p {
+  margin: 0;
+}
+.c-link-container {
+  display: flex;
+  gap: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.c-link-container a {
+  text-decoration: none;
+}
+.c-pragraph {
+  font-size: medium;
+  font-weight: bold;
+}
+.c-pragraph2 {
+  font-size: 14px;
+  font-weight: bold;
+}

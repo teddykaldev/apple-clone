@@ -1,0 +1,14 @@
+.Watch-and-Card-Container{
+        display:flex;
+        flex-direction: column;
+    }
+@media (min-width:768px){
+    .Watch-and-Card-Container{
+        flex-direction: row;
+        gap:10px;
+    }
+    .Watch-and-Card-Container>*{
+        width: 50%;
+    }
+
+}

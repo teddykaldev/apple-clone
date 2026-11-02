@@ -1,0 +1,31 @@
+.iphone-container {
+  background-image: url("../assets/images/home/iphone11-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.i-note-container {
+  text-align: center;
+  padding-top: 20px;
+}
+.i-link-container {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.i-link-container a {
+  text-decoration: none;
+}
+.i-pragraph{
+  font-size: medium;
+  font-weight: bold;
+}
+.i-pragraph2 {
+  font-size: 12px;
+  color: #2b2b2b;
+}

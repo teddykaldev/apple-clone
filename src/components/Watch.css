@@ -1,0 +1,33 @@
+.Watch-container {
+  background-image: url("../assets/images/home/watch-series-5.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.w-note-container {
+  text-align: center;
+}
+.w-note-container p {
+  margin: 0;
+}
+.w-link-container {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 10px;
+}
+.w-link-container a {
+  text-decoration: none;
+}
+.w-pragraph{
+  font-size: medium;
+  font-weight: bold;
+}
+.w-pragraph2 {
+  font-size: 14px;
+  font-weight: bold;
+}

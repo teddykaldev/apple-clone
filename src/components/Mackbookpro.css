@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mack-pro-contiener {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.mackpro-note-contiener {
+  text-align: center;
+  padding-top: 20px;
+  margin-top: 10px;
+}
+.mackpro-note-contiener h2 {
+  color: orangered;
+  font-size: medium;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.mackpro-note-contiener h1 {
+  font-weight: bold;
+}
+.mackpro-link-contiener {
+  display: flex;
+  gap: 30px;
+  padding-bottom: 20px;
+}
+.mackpro-link-contiener a {
+  text-decoration: none;
+}
+.mackpro-img-continer img{
+    width: 96vw;
+}
+@media(min-width:768px) and (max-width:1099px){
+   .mackpro-note-contiener h2 {
+        color: orangered;
+        font-size: medium;
+        font-weight: bold;
+        margin-top: 30px;
+    }
+   
+    .mackpro-note-contiener h1 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+     .mackpro-note-contiener h3 {
+        font-size: 20px;
+        line-height: 1.9;
+        font-weight: 500;
+    }
+    .mackpro-img-continer img{
+        width: 50vw;
+    }
+}
+@media(min-width:1100px){
+    .mackpro-img-continer img{
+        width: 40vw;
+    }
+}
