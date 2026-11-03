@@ -1,0 +1,116 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.desktop-footer-container{
+    background-color: hsl(240, 11%, 96%);
+    padding: 30px 20px;
+    color: #1d1d1f;
+    font-size: 14px;
+}
+.paragraph-container{
+    color: #6e6e73;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.apple-terms-list-container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.shop-container h2,
+.services-container h2,
+.account-container h2,
+.apple-store-container h2,
+.business-container h2,
+.education-container h2,
+.healthcare-cont h2,
+.government-cont h2,
+.values-cont h2,
+.about-cont h2{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    margin-bottom: 0;
+    color: #1d1d1f;
+}
+.shop-container ul,
+.services-container ul,
+.account-container ul,
+.apple-store-container ul,
+.business-container ul,
+.education-container ul,
+.healthcare-cont ul,
+.government-cont ul,
+.values-cont ul,
+.about-cont ul {
+    margin-top: 0;
+    padding-left: 0;
+    margin-left: 0;
+}
+.shop-container li,
+.services-container li,
+.account-container li,
+.apple-store-container li,
+.business-container li,
+.education-container li,
+.healthcare-cont li,
+.government-cont li,
+.values-cont li,
+.about-cont li {
+    list-style: none;
+    margin-top: 10px;
+}
+.shop-container a,
+.services-container a,
+.account-container a,
+.apple-store-container a,
+.business-container a,
+.education-container a,
+.healthcare-cont a,
+.government-cont a,
+.values-cont a,
+.about-cont a {
+    text-decoration: none;
+    color: #6e6e73;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+#paragraph-more{
+    color:#6e6e73 ;
+    margin-left: 30px;
+}
+#paragraph-more a{
+    color: #0066cc;
+
+}
+.dfooter-copy{
+    font-size: 12px;
+    color: #6e6e73;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.dfooter-copy nav {
+  font-size: 12px;
+}
+.dfoter-terms {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.dfoter-terms  a {
+  color: #6e6e73;
+  margin: 0 5px;
+  text-decoration: none;
+  padding: 0 5px;
+}

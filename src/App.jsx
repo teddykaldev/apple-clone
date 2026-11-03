@@ -8,6 +8,8 @@ import CardandWatch from './components/CardandWatch'
 import AppletvandAirpods from './components/AppletvandAirpods'
 import MackbookandIpad from './components/MackbookandIpad'
 import MobileFooter from './components/MobileFooter'
+import DesktopFooter from './components/DesktopFooter'
+import MobileandDesktopFooter from './components/MobileandDesktopFooter'
 
 function App() {
 
@@ -20,7 +22,9 @@ function App() {
     <CardandWatch/>
     <AppletvandAirpods/>
     <MackbookandIpad/>
-    <MobileFooter/>
+    {/* <MobileFooter/> */}
+    {/* <DesktopFooter/> */}
+    <MobileandDesktopFooter/>
     </>
   )
 }

@@ -8,30 +8,35 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* height: 400px; */
   margin-bottom: 10px;
 }
 .mack-note-container {
   text-align: center;
-  /* padding-top: 20px;
-  margin-top: 10px; */
+  margin: 0;
 }
 .mack-note-container h2 {
   color: orangered;
-  font-size: medium;
-  font-weight: bold;
-  /* margin-top: 30px; */
+  font-size: 12px;
+  font-weight:600;
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.mack-note-container h3{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .mack-note-container h1 {
   font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 0;
 }
 .mack-link-container {
   display: flex;
   gap: 30px;
-  /* padding-bottom: 20px; */
 }
 .mack-link-container a {
   text-decoration: none;
+  color: #0066cc;
 }
 .mack-img-container img{
     width: 96vw;
@@ -44,12 +49,14 @@ body{
         color: orangered;
         font-size: medium;
         font-weight: bold;
-        margin-top: 30px;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
    
     .mack-note-container h1 {
         font-size: 20px;
         font-weight: 600;
+        margin-bottom: 10px;
     }
      .mack-note-container h3 {
         font-size: 20px;
@@ -57,14 +64,27 @@ body{
         font-weight: 500;
     }
     .mack-img-container img{
-        width: 50vw;
+        width: 35vw;
     }
 }
 @media(min-width:1100px){
     .mack-container{
         height: 490px;
     }
+       .mack-note-container h2 {
+        color: orangered;
+        font-size: medium;
+        font-weight: bold;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+   
+    .mack-note-container h1 {
+        font-size: 20px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
     .mack-img-container img{
-        width: 40vw;
+        width: 25vw;
     }
 }

@@ -19,10 +19,17 @@ body{
   color: orangered;
   font-size: medium;
   font-weight: bold;
+  margin-bottom: 0;
   margin-top: 30px;
+}
+.mackpro-note-contiener h3{
+    margin-top: 0;
+    margin-bottom: 0;
 }
 .mackpro-note-contiener h1 {
   font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 .mackpro-link-contiener {
   display: flex;
@@ -31,6 +38,7 @@ body{
 }
 .mackpro-link-contiener a {
   text-decoration: none;
+  color: #0066cc;
 }
 .mackpro-img-continer img{
     width: 96vw;

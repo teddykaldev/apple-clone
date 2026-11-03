@@ -1,8 +1,17 @@
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 .footer-container {
   background-color: hsl(240, 11%, 96%);
   padding: 30px 20px;
   color: #1d1d1f;
   font-size: 14px;
+}
+.footer-paragraph{
+  color: #6e6e73;
+  font-size: 12px;
+  line-height: 1.6;
 }
 .footer-contact > div {
   display: flex;
@@ -13,8 +22,10 @@
 }
 .footer-contact h6 {
   margin: 0;
-  font-size: 14px;
-  font-weight: 600;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #1d1d1f;
 }
 .footer-contact p {
   font-size: 12px;
@@ -45,4 +56,5 @@
   margin: 0;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
