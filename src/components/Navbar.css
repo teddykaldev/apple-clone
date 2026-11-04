@@ -12,7 +12,6 @@ body{
     position: fixed;
     display: grid;
     align-items: center;
-    /* justify-content: center; */
 }
 .linkContiner{
     display: flex;

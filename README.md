@@ -1,16 +1,79 @@
-# React + Vite
+# Apple Clone – React
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A responsive Apple website clone built with React. This project recreates an older version of Apple's homepage design as a practical frontend development project.
 
-Currently, two official plugins are available:
+## About the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The goal of this project is to practice and improve my frontend development skills by recreating Apple's website using React, CSS, and React Router.
 
-## React Compiler
+The website includes a homepage with multiple Apple product sections and individual product pages accessible through navigation.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Responsive design for mobile, tablet, and desktop.
+- React component-based architecture.
+- React Router for page navigation.
+- Shared layout with a reusable Navbar and Footer.
+- Individual product pages.
+- Responsive product sections and layouts.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+- React
+- JavaScript
+- CSS
+- React Router DOM
+- HTML5
+- Vite
+
+## Pages and Sections
+
+- MacBook
+- iPad
+- iPhone
+- iPhone Pro
+- Apple Watch
+- Apple TV
+- AirPods
+- Apple Card
+
+## Installation and Setup
+
+1. Clone the repository:
+
+   ```bash
+   git clone YOUR_REPOSITORY_URL
+   ```
+
+2. Navigate into the project folder:
+
+   ```bash
+   cd apple-clone
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Start the development server:
+
+   ```bash
+   npm run dev
+   ```
+
+## Future Improvements
+
+- Recreate the latest Apple website design.
+- Add shopping bag functionality.
+- Improve interactive features and animations.
+- Continue improving responsive layouts.
+
+## Disclaimer
+
+This is a personal educational project created for learning and practice purposes. It is not an official Apple website and is not affiliated with Apple Inc.
+
+---
+
+**Built with React by Teddy.**
